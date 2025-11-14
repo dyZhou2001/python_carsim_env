@@ -197,7 +197,7 @@ if __name__ == "__main__":
     import time
     from simple_controller import SimplePathFollower
 
-    example_sim = r"D:\ZDY_Drift\pyDrift\simfile.sim"
+    example_sim = r"./simfile.sim"
     # 每个 episode 新建一个独立的环境实例，避免内部状态残留
     num_episodes = 1
     max_steps_per_episode = 20000  # 控制器步（不是内部积分步）上限

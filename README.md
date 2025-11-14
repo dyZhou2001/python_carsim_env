@@ -20,7 +20,7 @@ pip install numpy
 ```python
 from carsim_env import CarSimEnv
 
-sim_path = r"D:\ZDY_Drift\pyDrift\simfile.sim"
+sim_path = r"./simfile.sim"
 env = CarSimEnv(sim_path)
 obs = env.reset()
 print("Initial obs first 6:", obs[:6])
@@ -35,7 +35,7 @@ env.close()
 ```python
 from carsim_env import CarSimEnv
 
-sim_path = r"D:\ZDY_Drift\pyDrift\simfile.sim"
+sim_path = r"./simfile.sim"
 control_dt = 0.1  # 控制器周期 100ms
 env = CarSimEnv(sim_path)
 obs = env.reset()
