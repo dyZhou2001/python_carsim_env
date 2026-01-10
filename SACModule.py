@@ -5,6 +5,7 @@ import os
 import random
 import time
 # Step 2: Third-party imports
+import gymnasium as gym
 import numpy as np
 import torch
 import torch.nn as nn
